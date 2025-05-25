@@ -56,7 +56,7 @@ export default function Home() {
           {/* Hero Section */}
           <AnimatedTextCycleDemo />
         </main>
-        <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+        <footer className="row-start-3 flex flex-col items-center justify-center w-full gap-2 pb-4">
           {/* Visit our Website link */}
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4 text-white"
@@ -73,6 +73,12 @@ export default function Home() {
             />
             Visit our Website
           </a>
+          {/* Logos below the footer link, centered */}
+          <div className="flex gap-8 items-end justify-center mt-2">
+            <img src="https://automationalien.s3.us-east-1.amazonaws.com/make-logo-png.png" alt="Make Logo" style={{ height: 48 }} />
+            <img src="https://automationalien.s3.us-east-1.amazonaws.com/n8n-logo-png_seeklogo-470809.png" alt="n8n Logo" style={{ height: 48 }} />
+            <img src="https://automationalien.s3.us-east-1.amazonaws.com/Zapier_logo.png" alt="Zapier Logo" style={{ height: 12, marginBottom: 18 }} />
+          </div>
         </footer>
         {/* Jotform Assistant Embed */}
         <Script src="https://cdn.jotfor.ms/agent/embedjs/01952a9d3fb275588d4fce8dc19d1aa9d6e0/embed.js?skipWelcome=1&maximizable=1" strategy="afterInteractive" />
