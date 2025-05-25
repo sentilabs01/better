@@ -75,9 +75,15 @@ export default function Home() {
           </a>
           {/* Logos below the footer link, centered */}
           <div className="flex gap-8 items-end justify-center mt-2">
-            <img src="https://automationalien.s3.us-east-1.amazonaws.com/make-logo-png.png" alt="Make Logo" style={{ height: 48 }} />
-            <img src="https://automationalien.s3.us-east-1.amazonaws.com/n8n-logo-png_seeklogo-470809.png" alt="n8n Logo" style={{ height: 48 }} />
-            <img src="https://automationalien.s3.us-east-1.amazonaws.com/Zapier_logo.png" alt="Zapier Logo" style={{ height: 12, marginBottom: 18 }} />
+            <a href="https://www.make.com/en" target="_blank" rel="noopener noreferrer">
+              <img src="https://automationalien.s3.us-east-1.amazonaws.com/make-logo-png.png" alt="Make Logo" style={{ height: 56 }} />
+            </a>
+            <a href="https://n8n.io/" target="_blank" rel="noopener noreferrer">
+              <img src="https://automationalien.s3.us-east-1.amazonaws.com/n8n-logo-png_seeklogo-470809.png" alt="n8n Logo" style={{ height: 56 }} />
+            </a>
+            <a href="https://zapier.com/" target="_blank" rel="noopener noreferrer">
+              <img src="https://automationalien.s3.us-east-1.amazonaws.com/Zapier_logo.png" alt="Zapier Logo" style={{ height: 18, marginBottom: 18 }} />
+            </a>
           </div>
         </footer>
         {/* Jotform Assistant Embed */}
